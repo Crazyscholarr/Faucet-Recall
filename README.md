@@ -51,7 +51,9 @@ git clone git@github.com:Crazyscholarr/Faucet-Recall.git
 cd Faucet-Recall
 ```
 ### 2. Install dependencies
+```bash
 npm install
+```
 ### 3. Prepare configuration file
 Create a .env file in the root directory with the following content:
 plaintext
@@ -75,7 +77,7 @@ http://user2:pass2@987.654.321.098:8080
 ```
 4. Run the program
 ```bash
-node faucetRecall.js
+node index.js
 ```
 # Faucet Recall
 
@@ -151,5 +153,5 @@ http://user2:pass2@987.654.321.098:8080
 ```
 4. Chạy chương trình
 ```bash
-node faucetRecall.js
+node index.js
 ```
