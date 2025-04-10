@@ -70,10 +70,11 @@ data/private_keys.txt: List of wallet private keys, one per line.
 0xdef456...
 ```
 data/proxies.txt: List of proxies (format http://username:password@host:port), one per line.
-text
+```bash
 
 http://user1:pass1@123.456.789.012:8080
 http://user2:pass2@987.654.321.098:8080
+```
 4. Run the program
 ```bash
 node faucetRecall.js
