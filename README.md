@@ -6,8 +6,6 @@ Faucet Recall token support for the project with built-in features of capcha sol
 
 **Faucet Recall** is an automated tool for requesting tokens from the Recall Network (testnet) faucet. The program uses Capsolver to solve Turnstile CAPTCHAs and supports proxies to send multiple requests from different wallets. It is designed to run continuously, automatically retry when errors occur, and can customize the log language (Vietnamese or English).
 
-**Faucet Recall** is an automated tool for requesting tokens from the Recall Network (testnet) faucet. The program uses Capsolver to solve Turnstile CAPTCHAs and supports proxies to send multiple requests from different wallets. It is designed to run continuously, automatically retrying on errors, and allows log language customization (Vietnamese or English).
-
 ---
 
 ## Features
@@ -52,9 +50,9 @@ Faucet Recall token support for the project with built-in features of capcha sol
 git clone git@github.com:Crazyscholarr/Faucet-Recall.git
 cd Faucet-Recall
 ```
-###2. Install dependencies
+### 2. Install dependencies
 npm install
-3. Prepare configuration file
+### 3. Prepare configuration file
 Create a .env file in the root directory with the following content:
 plaintext
 ```bash
@@ -86,7 +84,6 @@ node faucetRecall.js
 
 **Faucet Recall** là một công cụ tự động để yêu cầu token từ faucet của Recall Network (testnet). Chương trình sử dụng Capsolver để giải CAPTCHA Turnstile và hỗ trợ proxy để gửi nhiều yêu cầu từ các ví khác nhau. Nó được thiết kế để chạy liên tục, tự động thử lại khi gặp lỗi, và có thể tùy chỉnh ngôn ngữ log (Tiếng Việt hoặc Tiếng Anh).
 
-**Faucet Recall** is an automated tool for requesting tokens from the Recall Network (testnet) faucet. The program uses Capsolver to solve Turnstile CAPTCHAs and supports proxies to send multiple requests from different wallets. It is designed to run continuously, automatically retrying on errors, and allows log language customization (Vietnamese or English).
 
 ---
 
@@ -127,27 +124,31 @@ node faucetRecall.js
 git clone git@github.com:Crazyscholarr/Faucet-Recall.git
 cd Faucet-Recall
 ```
-###2. Cài đặt dependencies
+### 2. Cài đặt dependencies
+```bash
   npm install 
-3. Chuẩn bị file cấu hình
+```
+### 3. Chuẩn bị file cấu hình
 Tạo file .env trong thư mục gốc với nội dung sau:
-plaintext
+```bash
 
 CAPTCHA_SERVICE=capsolver
 CAPSOLVER_KEY=<your_capsolver_api_key>
 LANGUAGE=vi  # hoặc 'en' để dùng Tiếng Anh
+```
 Tạo thư mục data/ và thêm hai file:
 data/private_keys.txt: Danh sách private keys của ví, mỗi key trên một dòng.
-text
+```bash
 
 0xabc123...
 0xdef456...
-
+```
 data/proxies.txt: Danh sách proxy (định dạng http://username:password@host:port), mỗi proxy trên một dòng.
-text
 
+```bash
 http://user1:pass1@123.456.789.012:8080
 http://user2:pass2@987.654.321.098:8080
+```
 4. Chạy chương trình
 ```bash
 node faucetRecall.js
