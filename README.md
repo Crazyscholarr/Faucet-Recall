@@ -1,13 +1,7 @@
 # Faucet-Recall
-# Faucet-Recall
-
 ! Warning: You should use a separate proxy for the wallet, if there are too many duplicates, you will not be able to send requests
-# Faucet-Recall
-# Faucet-Recall
 Faucet Recall token support for the project with built-in features of capcha solution, retry if faucet failure, proxy integration
 ! Warning: You should use a separate proxy for the wallet, if there are too many duplicates, you will not be able to send requests
-# Faucet Recall
-
 ## Introduction
 
 **Faucet Recall** is an automated tool for requesting tokens from the Recall Network (testnet) faucet. The program uses Capsolver to solve Turnstile CAPTCHAs and supports proxies to send multiple requests from different wallets. It is designed to run continuously, automatically retry when errors occur, and can customize the log language (Vietnamese or English).
