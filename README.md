@@ -37,10 +37,6 @@ Faucet Recall token support for the project with built-in features of capcha sol
 - **Capsolver API Key**: Register at [Capsolver](https://www.capsolver.com/) to get the key.
 - **Proxy**: Proxy list (optional, but recommended to avoid rate limit).
 
-- **Node.js**: Version 16.x or higher.
-- **Capsolver API Key**: Register at [Capsolver](https://www.capsolver.com/) to get a key.
-- **Proxies**: Proxy list (optional, but recommended to avoid rate limits).
-
 ---
 
 ## Installation and Usage Instructions (Installation and Usage)
@@ -97,14 +93,6 @@ node index.js
 - **Xử lý lỗi**: Tự động thử lại khi gặp lỗi như `429 Too Many Requests`, `502 Bad Gateway`, hoặc `Sequence Mismatch`.
 - **Log chi tiết**: Hiển thị log với timestamp, trạng thái ví, và thông tin giao dịch (hỗ trợ Tiếng Việt và Tiếng Anh).
 - **Tùy chỉnh**: Dễ dàng cấu hình thông qua file `.env`.
-
-- **Faucet automation**: Continuously sends token requests for multiple wallets.
-- **CAPTCHA solving**: Integrates Capsolver to bypass Turnstile CAPTCHA.
-- **Proxy support**: Uses a proxy list to avoid request limits.
-- **Error handling**: Automatically retries on errors like `429 Too Many Requests`, `502 Bad Gateway`, or `Sequence Mismatch`.
-- **Detailed logging**: Displays logs with timestamps, wallet status, and transaction info (supports Vietnamese and English).
-- **Customizable**: Easily configured via `.env` file.
-
 ---
 
 ## Yêu cầu (Requirements)
